@@ -23,8 +23,8 @@ mixin badge-travis(repo)
     +badge('/travis/' + repo)
 
 mixin badge-coverage(repo)
-  a(href='https://coveralls.io/r/' + repo)
-    +badge('/coveralls/' + repo)
+  a(href='https://codecov.io/github/' + repo)
+    +badge('/codecov/c/github/' + repo)
 
 mixin badge-downloads(npm)
   a(href='https://npmjs.org/package/' + npm)

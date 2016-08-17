@@ -38,12 +38,15 @@ require('co')(function *() {
     return ret
   }, 2)
   require('fs').writeFileSync(__dirname + '/db.json', json)
-}).then()
+}).catch(err => {
+  console.log(err.stack)
+  process.exit(1);
+});
 
 
 //
 // Generators
-// 
+//
 
 function *getNpmInfo(pkg) {
   return JSON.parse(yield get('https://registry.npmjs.org/' + pkg))

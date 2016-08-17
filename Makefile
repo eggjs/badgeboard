@@ -1,5 +1,5 @@
 NODE ?= node
-NPM  ?= npm
+NPM  ?= npminstall
 
 index.html: config.yaml node_modules scripts/* templates/* scripts/db.json
 	@${NODE} scripts/build.js
@@ -28,4 +28,3 @@ help:
 	@echo 'make help  - print this message (try that again)'
 
 .PHONY: db clean help
-
