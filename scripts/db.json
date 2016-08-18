@@ -9,6 +9,9 @@
     "fengmk2": {
       "packages": 274
     },
+    "jtyjty99999": {
+      "packages": 6
+    },
     "popomore": {
       "packages": 123
     }
@@ -16,7 +19,7 @@
   "projects": {
     "egg": {
       "description": "A web framework's framework for Node.js",
-      "maintainer": "fengmk2"
+      "maintainer": "popomore"
     },
     "egg-alinode": {
       "description": "alinode plugin for egg",
