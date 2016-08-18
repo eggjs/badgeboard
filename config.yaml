@@ -58,6 +58,13 @@ maintainers:
    gittip:  popomore
    email:   sakura9515@gmail.com
 
+ - name:    TZ | 天猪
+   github:  atian25
+   npm:     atian25
+   twitter: atian25
+   gittip:  atian25
+   email:   atian25@qq.com
+
 # this determines what info will be fetched with `make db`;
 # you can comment out stuff to reduce number of http requests
 db.json:
