@@ -3,6 +3,9 @@
   "//2": "you're free to change it as you like,",
   "//3": "but it will be overwritten on the next build.",
   "maintainers": {
+    "atian25": {
+      "packages": 53
+    },
     "fengmk2": {
       "packages": 274
     },
