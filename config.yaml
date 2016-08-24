@@ -44,7 +44,7 @@ projects:
 
 # list of maintainers, this won't be sorted
 maintainers:
- - name: Feng Yuan
+ - name:    Feng Yuan
    github:  fengmk2   # github account, required: we link to it
    npm:     fengmk2   # npm account, required to determine lead maintainer
    twitter: fengmk2   # twitter account, optional
@@ -71,6 +71,55 @@ maintainers:
    twitter: jtyjty99999
    gittip:  jtyjty99999
    email:   jtyjty99999@126.com
+
+ - name:    Yiyu He
+   github:  dead-horse
+   npm:     dead-horse
+   twitter: dead-horse
+   gittip:  dead-horse
+   email:   heyiyu.deadhorse@gmail.com
+
+ - name:    GaoXiaochen
+   github:  gxcsoccer
+   npm:     gxcsoccer
+   twitter: gxcsoccer
+   gittip:  gxcsoccer
+   email:   gxcsoccer@126.com
+
+ - name:    tangyao
+   github:  coolme200
+   npm:     coolme200
+   twitter: coolme200
+   gittip:  coolme200
+   email:   2001-wms@163.com
+
+ - name:    Matt Ma
+   github:  mattma
+   npm:     mattma
+   twitter: bigmabig
+   gittip:  mattma
+   email:   matt@mattmadesign.com
+
+ - name:    Deng Ruoqi
+   github:  luckydrq
+   npm:     luckydrq
+   twitter: luckydrq
+   gittip:  luckydrq
+   email:   drqzju@gmail.com
+
+ - name:    Shawn
+   github:  shaoshuai0102
+   npm:     shaoshuai0102
+   twitter: shaoshuai0102
+   gittip:  shaoshuai0102
+   email:   shaoshuai0102@gmail.com
+
+ - name:    hui
+   github:  leoner
+   npm:     leoner
+   twitter: leoner
+   gittip:  leoner
+   email:   kangpangpang@gmail.com
 
 # this determines what info will be fetched with `make db`;
 # you can comment out stuff to reduce number of http requests
