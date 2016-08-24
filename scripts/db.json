@@ -6,14 +6,35 @@
     "atian25": {
       "packages": 53
     },
+    "coolme200": {
+      "packages": 15
+    },
+    "dead-horse": {
+      "packages": 22
+    },
     "fengmk2": {
-      "packages": 274
+      "packages": 276
+    },
+    "gxcsoccer": {
+      "packages": 17
     },
     "jtyjty99999": {
       "packages": 6
     },
+    "kangpangpang": {
+      "packages": 27
+    },
+    "luckydrq": {
+      "packages": 28
+    },
+    "mattma": {
+      "packages": 6
+    },
     "popomore": {
       "packages": 123
+    },
+    "shaoshuai0102": {
+      "packages": 8
     }
   },
   "projects": {
@@ -28,7 +49,7 @@
     },
     "egg-bin": {
       "description": "egg developer tool",
-      "maintainer": "fengmk2",
+      "maintainer": "popomore",
       "node": "4"
     },
     "egg-ci": {
@@ -112,7 +133,8 @@
     },
     "egg-security": {
       "description": "security plugin in egg framework",
-      "maintainer": "jtyjty99999"
+      "maintainer": "popomore",
+      "node": "4"
     },
     "egg-session": {
       "description": "session plugin for egg",

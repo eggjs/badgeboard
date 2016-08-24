@@ -73,14 +73,22 @@ function *getOwnedPackages(user) {
                      + '?startkey=' + escapeJSON([user])
                      + '&endkey=' + escapeJSON([user, {}])
                      + '&group_level=1') // set group_level=2 for list
-  return JSON.parse(data).rows[0].value
+  var rows = JSON.parse(data).rows
+  if (rows.length === 0) {
+    return;
+  }
+  return rows[0].value
 }
 
 function *getMaintainersInfo() {
   for (var name in data.maintainers) {
     var mData = data.maintainers[name]
-    if (config['db.json'].maintainers.packages)
-      mData.packages = yield getOwnedPackages(name)
+    if (config['db.json'].maintainers.packages) {
+      var packages = yield getOwnedPackages(name)
+      if (packages) {
+        mData.packages = packages
+      }
+    }
 
     //if (config['db.json'].maintainers.avatar)
     //  mData.avatar = (yield getUserInfo(name)).avatar
