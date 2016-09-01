@@ -4,22 +4,22 @@
   "//3": "but it will be overwritten on the next build.",
   "maintainers": {
     "atian25": {
-      "packages": 53
+      "packages": 54
     },
     "coolme200": {
       "packages": 15
     },
-    "dead-horse": {
-      "packages": 22
+    "dead_horse": {
+      "packages": 208
     },
     "fengmk2": {
-      "packages": 276
+      "packages": 279
     },
     "gxcsoccer": {
       "packages": 17
     },
     "jtyjty99999": {
-      "packages": 6
+      "packages": 11
     },
     "kangpangpang": {
       "packages": 27
@@ -31,7 +31,7 @@
       "packages": 6
     },
     "popomore": {
-      "packages": 123
+      "packages": 124
     },
     "shaoshuai0102": {
       "packages": 8
@@ -40,7 +40,8 @@
   "projects": {
     "egg": {
       "description": "A web framework's framework for Node.js",
-      "maintainer": "popomore"
+      "maintainer": "fengmk2",
+      "node": "4"
     },
     "egg-alinode": {
       "description": "alinode plugin for egg",
@@ -87,6 +88,10 @@
       "maintainer": "atian25",
       "node": "4"
     },
+    "egg-etag": {
+      "description": "为 Egg 应用开启 ETag。",
+      "maintainer": "huacnlee"
+    },
     "egg-i18n": {
       "description": "i18n plugin for egg",
       "maintainer": "fengmk2",
@@ -116,6 +121,11 @@
       "maintainer": "fengmk2",
       "node": "4"
     },
+    "egg-mysql": {
+      "description": "mysql plugin for egg",
+      "maintainer": "jtyjty99999",
+      "node": "4"
+    },
     "egg-onerror": {
       "description": "error handler for egg",
       "maintainer": "dead_horse",
@@ -133,7 +143,7 @@
     },
     "egg-security": {
       "description": "security plugin in egg framework",
-      "maintainer": "popomore",
+      "maintainer": "fengmk2",
       "node": "4"
     },
     "egg-session": {
@@ -146,6 +156,11 @@
       "maintainer": "dead_horse",
       "node": "4"
     },
+    "egg-tracer": {
+      "description": "tracer for egg",
+      "maintainer": "fengmk2",
+      "node": "4"
+    },
     "egg-userrole": {
       "description": "user role plugin for egg",
       "maintainer": "fengmk2",
@@ -153,7 +168,7 @@
     },
     "egg-userservice": {
       "description": "userservice plugin for egg",
-      "maintainer": "shaoshuai0102",
+      "maintainer": "fengmk2",
       "node": "4"
     },
     "egg-utils": {

@@ -44,7 +44,6 @@ projects:
  - egg-etag
  - egg-mysql
  - egg-tracer
- - egg-oss
 
 # list of maintainers, this won't be sorted
 maintainers:

@@ -74,7 +74,7 @@ function *getOwnedPackages(user) {
                      + '&endkey=' + escapeJSON([user, {}])
                      + '&group_level=1') // set group_level=2 for list
   var rows = JSON.parse(data).rows
-  if (rows.length === 0) {
+  if (!rows || rows.length === 0) {
     return;
   }
   return rows[0].value
