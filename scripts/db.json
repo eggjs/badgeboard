@@ -4,54 +4,78 @@
   "//3": "but it will be overwritten on the next build.",
   "maintainers": {
     "atian25": {
-      "packages": 54
+      "packages": 75
     },
     "coolme200": {
       "packages": 15
     },
     "dead_horse": {
-      "packages": 208
+      "packages": 221
     },
     "fengmk2": {
-      "packages": 279
+      "packages": 310
     },
     "gxcsoccer": {
-      "packages": 17
+      "packages": 22
     },
     "jtyjty99999": {
-      "packages": 11
+      "packages": 19
     },
     "kangpangpang": {
       "packages": 27
     },
     "luckydrq": {
-      "packages": 28
+      "packages": 34
     },
     "mattma": {
       "packages": 6
     },
     "popomore": {
-      "packages": 124
+      "packages": 156
     },
     "shaoshuai0102": {
-      "packages": 8
+      "packages": 18
     }
   },
   "projects": {
+    "aliyun-egg": {
+      "description": "egg framework for aliyun",
+      "maintainer": "jtyjty99999",
+      "node": "6"
+    },
+    "autod-egg": {
+      "description": "autod egg plugin",
+      "maintainer": "fengmk2"
+    },
     "egg": {
       "description": "A web framework's framework for Node.js",
-      "maintainer": "fengmk2",
-      "node": "4"
+      "maintainer": "popomore",
+      "node": "6"
     },
     "egg-alinode": {
       "description": "alinode plugin for egg",
       "maintainer": "fengmk2",
-      "node": "4"
+      "node": "6"
     },
     "egg-bin": {
       "description": "egg developer tool",
       "maintainer": "popomore",
-      "node": "4"
+      "node": "6"
+    },
+    "egg-boilerplate-empty": {
+      "description": "only init basic stuff, such as eslint / test / ci ... ",
+      "maintainer": "atian25",
+      "node": "6"
+    },
+    "egg-boilerplate-framework": {
+      "description": "boilerplate for egg framework",
+      "maintainer": "atian25",
+      "node": "6"
+    },
+    "egg-boilerplate-plugin": {
+      "description": "boilerplate for egg plugin",
+      "maintainer": "atian25",
+      "node": "6"
     },
     "egg-ci": {
       "description": "Auto gen ci config file",
@@ -60,135 +84,284 @@
     },
     "egg-cluster": {
       "description": "cluster manager for egg",
-      "maintainer": "popomore",
-      "node": "4"
+      "maintainer": "fengmk2",
+      "node": "6"
     },
     "egg-cookies": {
-      "description": "cookies module for egg, base on pillarjs/cookies",
+      "description": "cookies module for egg",
       "maintainer": "fengmk2",
       "node": "4"
     },
     "egg-core": {
-      "description": "A core Plugable framework based on koa",
+      "description": "A core Pluggable framework based on koa",
       "maintainer": "popomore",
-      "node": "4"
+      "node": "6"
     },
     "egg-cors": {
       "description": "cors plugin for egg",
-      "maintainer": "dead_horse",
-      "node": "4"
+      "maintainer": "atian25",
+      "node": "6"
     },
     "egg-development": {
       "description": "development tool for egg",
-      "maintainer": "jtyjty99999",
-      "node": "4"
+      "maintainer": "popomore",
+      "node": "6"
+    },
+    "egg-development-proxyagent": {
+      "description": "A proxy adapter for debugging httpclient on egg.",
+      "maintainer": "atian25",
+      "node": "6"
     },
     "egg-dingtalk": {
       "description": "egg plugin for dingtalk",
       "maintainer": "atian25",
-      "node": "4"
+      "node": "6"
     },
     "egg-etag": {
-      "description": "为 Egg 应用开启 ETag。",
-      "maintainer": "huacnlee"
+      "description": "etag && conditional-get plugin for egg",
+      "maintainer": "huacnlee",
+      "node": "6"
+    },
+    "egg-host": {
+      "description": "host plugin for egg, support modify the host.",
+      "maintainer": "ngot",
+      "node": "6"
     },
     "egg-i18n": {
       "description": "i18n plugin for egg",
       "maintainer": "fengmk2",
-      "node": "4"
+      "node": "6"
     },
     "egg-init": {
       "description": "Init egg app helper tools.",
-      "maintainer": "fengmk2"
+      "maintainer": "atian25",
+      "node": "4"
+    },
+    "egg-init-config": {
+      "description": "egg init boilerplate config",
+      "maintainer": "atian25"
+    },
+    "egg-instrument": {
+      "description": "Compute the duration of an operation in local environment",
+      "maintainer": "popomore",
+      "node": "6"
+    },
+    "egg-jsonp": {
+      "description": "jsonp support for egg",
+      "maintainer": "dead_horse",
+      "node": "6"
+    },
+    "egg-jwt": {
+      "description": "JWT authentication plugin for egg",
+      "maintainer": "dapixp",
+      "node": "4"
+    },
+    "egg-knex": {
+      "description": "knex plugin for egg",
+      "maintainer": "dapixp",
+      "node": "4"
     },
     "egg-logger": {
       "description": "egg logger",
-      "maintainer": "fengmk2",
+      "maintainer": "popomore",
       "node": "4"
     },
     "egg-logrotator": {
       "description": "logrotator for egg",
-      "maintainer": "popomore",
-      "node": "4"
+      "maintainer": "fengmk2",
+      "node": "6"
+    },
+    "egg-logview": {
+      "description": "Provide a log files viewer for egg development purpose.",
+      "maintainer": "atian25",
+      "node": "6"
     },
     "egg-mock": {
       "description": "mock server for egg",
       "maintainer": "popomore",
-      "node": "4"
+      "node": "6"
+    },
+    "egg-mongoose": {
+      "description": "egg mongoose plugin",
+      "maintainer": "dead_horse",
+      "node": "6"
     },
     "egg-multipart": {
       "description": "multipart plugin for egg",
       "maintainer": "fengmk2",
-      "node": "4"
+      "node": "6"
     },
     "egg-mysql": {
-      "description": "mysql plugin for egg",
-      "maintainer": "jtyjty99999",
-      "node": "4"
+      "description": "MySQL plugin for egg",
+      "maintainer": "popomore",
+      "node": "6"
     },
     "egg-onerror": {
       "description": "error handler for egg",
+      "maintainer": "popomore",
+      "node": "6"
+    },
+    "egg-oss": {
+      "description": "oss plugin for egg",
+      "maintainer": "fengmk2",
+      "node": "6"
+    },
+    "egg-passport": {
+      "description": "passport plugin for egg, base on passportjs",
+      "maintainer": "fengmk2",
+      "node": "6"
+    },
+    "egg-passport-bitbucket": {
+      "description": "bitbucket passport plugin for egg",
+      "maintainer": "fengmk2",
+      "node": "6"
+    },
+    "egg-passport-github": {
+      "description": "github passport plugin for egg",
+      "maintainer": "fengmk2",
+      "node": "6"
+    },
+    "egg-passport-twitter": {
+      "description": "twitter passport plugin for egg",
+      "maintainer": "fengmk2",
+      "node": "6"
+    },
+    "egg-passport-weibo": {
+      "description": "weibo passport plugin for egg",
+      "maintainer": "fengmk2",
+      "node": "6"
+    },
+    "egg-path-matching": {
+      "description": "match or ignore url path",
       "maintainer": "dead_horse",
       "node": "4"
+    },
+    "egg-redis": {
+      "description": "Redis plugin for egg",
+      "maintainer": "dead_horse",
+      "node": "6"
     },
     "egg-rest": {
       "description": "Restful API plugin for egg",
       "maintainer": "fengmk2",
-      "node": "4"
+      "node": "6"
     },
     "egg-schedule": {
       "description": "schedule plugin for egg, support corn job.",
       "maintainer": "fengmk2",
-      "node": "4"
+      "node": "6"
     },
     "egg-security": {
       "description": "security plugin in egg framework",
-      "maintainer": "fengmk2",
-      "node": "4"
+      "maintainer": "dead_horse",
+      "node": "6"
+    },
+    "egg-sequelize": {
+      "description": "egg Sequelize plugin",
+      "maintainer": "jtyjty99999",
+      "node": "6"
     },
     "egg-session": {
       "description": "session plugin for egg",
       "maintainer": "dead_horse",
-      "node": "4"
+      "node": "6"
+    },
+    "egg-session-redis": {
+      "description": "redis store for egg session",
+      "maintainer": "dead_horse",
+      "node": "6"
+    },
+    "egg-socket.io": {
+      "description": "egg plugin for socket.io",
+      "maintainer": "ngot",
+      "node": "6"
     },
     "egg-static": {
       "description": "static server plugin for egg",
-      "maintainer": "dead_horse",
-      "node": "4"
+      "maintainer": "fengmk2",
+      "node": "6"
     },
     "egg-tracer": {
       "description": "tracer for egg",
       "maintainer": "fengmk2",
-      "node": "4"
+      "node": "6"
     },
     "egg-userrole": {
       "description": "user role plugin for egg",
-      "maintainer": "fengmk2",
-      "node": "4"
+      "maintainer": "popomore",
+      "node": "6"
     },
     "egg-userservice": {
       "description": "userservice plugin for egg",
       "maintainer": "fengmk2",
-      "node": "4"
+      "node": "6"
     },
     "egg-utils": {
       "description": "Utils for all egg projects",
-      "maintainer": "fengmk2",
-      "node": "4"
+      "maintainer": "popomore",
+      "node": "6"
     },
     "egg-validate": {
       "description": "validate plugin for egg",
-      "maintainer": "dead_horse",
-      "node": "4"
+      "maintainer": "atian25",
+      "node": "6"
+    },
+    "egg-view": {
+      "description": "Base view plugin for egg",
+      "maintainer": "popomore",
+      "node": "6"
+    },
+    "egg-view-ejs": {
+      "description": "egg view plugin for ejs",
+      "maintainer": "popomore",
+      "node": "6"
+    },
+    "egg-view-handlebars": {
+      "description": "egg view plugin for handlebars",
+      "maintainer": "atian25",
+      "node": "6"
     },
     "egg-view-nunjucks": {
-      "description": "view plugin for egg",
+      "description": "nunjucks view plugin for egg",
+      "maintainer": "popomore",
+      "node": "6"
+    },
+    "egg-view-react": {
+      "description": "egg view plugin for react",
       "maintainer": "atian25",
-      "node": "4"
+      "node": "6"
+    },
+    "egg-view-vue": {
+      "description": "egg view plugin for vue",
+      "maintainer": "atian25"
+    },
+    "egg-view-xtpl": {
+      "description": "egg view plugin for xtemplate",
+      "maintainer": "ngot",
+      "node": "6"
     },
     "egg-watcher": {
       "description": "file watcher plugin for egg",
-      "maintainer": "luckydrq",
+      "maintainer": "atian25",
+      "node": "6"
+    },
+    "egg-watcher-chokidar": {
+      "description": "enhance egg-watcher use chokidar",
+      "maintainer": "shaoshuai0102",
+      "node": "6"
+    },
+    "egg-websocket": {
+      "description": "egg plugin for websocket",
+      "maintainer": "atian25"
+    },
+    "eslint-config-egg": {
+      "description": "Node Style Guide for Egg.",
+      "maintainer": "fengmk2",
+      "node": "4"
+    },
+    "extend2": {
+      "description": "Port of jQuery.extend for node.js and the browser",
+      "maintainer": "popomore",
       "node": "4"
     }
   }

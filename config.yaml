@@ -7,8 +7,8 @@ badge_style: flat-square
 
 # meta headers in html
 title:       egg
-description: Born to build better enterprise frameworks and apps
-keywords:
+description: Born to build better enterprise frameworks and apps with Node.js & Koa
+keywords: eggjs egg Egg.js
 
 # list of projects, this will be sorted by name;
 # every package is either string or object
@@ -44,6 +44,49 @@ projects:
  - egg-etag
  - egg-mysql
  - egg-tracer
+ - aliyun-egg
+ - egg-sequelize
+ - egg-view-xtpl
+ - egg-socket.io
+ - egg-view-react
+ - egg-mongoose
+ - egg-view-handlebars
+ - egg-redis
+ #- egg-async-validator
+ - extend2
+ #- egg-graphql
+ - egg-passport
+ - egg-session-redis
+ - egg-boilerplate-empty
+ - egg-boilerplate-framework
+ - egg-boilerplate-plugin
+ - egg-logview
+ - egg-view
+ #- egg-scripts
+ - egg-view-ejs
+ - egg-passport-weibo
+ - egg-passport-twitter
+ - egg-passport-github
+ - egg-passport-bitbucket
+ #- egg-zookeeper
+ - egg-watcher-chokidar
+ - egg-websocket
+ - egg-oss
+ - egg-host
+ - eslint-config-egg
+ - egg-instrument
+ - egg-jsonp
+ - egg-view-vue
+ #- egg-waterline
+ - egg-development-proxyagent
+ - egg-knex
+ - egg-path-matching
+ - egg-init-config
+ - egg-jwt
+ #- egg-dns-client
+ #- egg-ots
+ - autod-egg
+ #- egg-dependencies
 
 # list of maintainers, this won't be sorted
 maintainers:
